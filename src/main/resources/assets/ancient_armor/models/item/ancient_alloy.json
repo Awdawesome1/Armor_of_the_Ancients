@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures" : {
-    "layer0" : "tutorial_mod:item/rune_of_power"
+    "layer0" : "ancient_armor:item/ancient_alloy"
   }
 }

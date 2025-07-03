@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "ancient_armor:block/block_of_ancient_alloy"
+    }
+  }
+}

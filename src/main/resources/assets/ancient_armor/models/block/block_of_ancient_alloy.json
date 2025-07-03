@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ancient_armor:block/block_of_ancient_alloy"
+  }
+}

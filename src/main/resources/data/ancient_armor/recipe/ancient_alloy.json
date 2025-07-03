@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ancient_armor:block_of_ancient_alloy"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ancient_armor:ancient_alloy"
+  }
+}

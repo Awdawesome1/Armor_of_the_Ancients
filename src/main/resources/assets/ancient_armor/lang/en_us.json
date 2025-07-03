@@ -1,0 +1,12 @@
+{
+  "item.ancient_armor.rune_of_power" : "Rune of Power",
+  "item.ancient_armor.ancient_alloy" : "Ancient Alloy",
+  "item.ancient_armor.juggernaut_alloy": "Alloy of the Juggernaut",
+  "item.ancient_armor.champion_alloy": "Alloy of the Champion",
+  "item.ancient_armor.artifex_alloy": "Alloy of the Artifex",
+  "item.ancient_armor.berserker_alloy": "Alloy of the Berserker",
+
+  "block.ancient_armor.block_of_ancient_alloy": "Ancient Alloy Block",
+  "creativetab.ancient_armor.aota_items_tab": "Armor of the Ancients Items",
+  "creativetab.ancient_armor.aota_blocks_tab": "Armor of the Ancients Blocks"
+}
