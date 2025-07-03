@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "ancient_armor:netherite_reinforcement"
+  },
+  "base": {
+    "item": "ancient_armor:ancient_alloy"
+  },
+  "result": {
+    "count": 1,
+    "id": "ancient_armor:juggernaut_alloy"
+  },
+  "template": {
+    "item": "ancient_armor:rune_of_power"
+  }
+}

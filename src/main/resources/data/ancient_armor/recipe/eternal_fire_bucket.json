@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key" : {
+    "R": {
+      "item": "minecraft:blaze_rod"
+    },
+    "P": {
+      "item": "minecraft:blaze_powder"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "pattern": [
+    "RPR",
+    "PLP",
+    "RPR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ancient_armor:eternal_flame_bucket"
+  }
+}

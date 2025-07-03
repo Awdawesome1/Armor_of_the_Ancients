@@ -1,6 +1,12 @@
 {
   "item.ancient_armor.rune_of_power" : "Rune of Power",
   "item.ancient_armor.ancient_alloy" : "Ancient Alloy",
+
+  "item.ancient_armor.precious_blend": "Precious Blend",
+  "item.ancient_armor.diamond_plating": "Diamond Plating Kit",
+  "item.ancient_armor.netherite_reinforcement": "Netherite Reinforcements",
+  "item.ancient_armor.eternal_flame_bucket": "Bucket of the Eternal Flame",
+
   "item.ancient_armor.juggernaut_alloy": "Alloy of the Juggernaut",
   "item.ancient_armor.champion_alloy": "Alloy of the Champion",
   "item.ancient_armor.artifex_alloy": "Alloy of the Artifex",

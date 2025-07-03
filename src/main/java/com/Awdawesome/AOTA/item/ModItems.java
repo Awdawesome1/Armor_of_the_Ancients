@@ -17,13 +17,25 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
         DeferredRegister.create(ForgeRegistries.ITEMS, Ancient_Armor.MOD_ID);
 
+    //base materials
     public static final RegistryObject<Item> RUNE_OF_POWER = ITEMS.register("rune_of_power",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ANCIENT_ALLOY = ITEMS.register("ancient_alloy",
             () -> new Item(new Item.Properties().fireResistant()));
 
+    //binding agents
+    public static final RegistryObject<Item> PRECIOUS_BLEND = ITEMS.register("precious_blend",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_PLATING = ITEMS.register("diamond_plating",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> NETHERITE_REINFORCEMENT = ITEMS.register("netherite_reinforcement",
+            () -> new Item(new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> ETERNAL_FLAME_BUCKET = ITEMS.register("eternal_flame_bucket",
+            () -> new Item(new Item.Properties()));
 
+
+    //alloys
     public static final RegistryObject<Item> ALLOY_OF_THE_JUGGERNAUT = ITEMS.register("juggernaut_alloy",
             () -> new Item(new Item.Properties().fireResistant()));
 
@@ -35,6 +47,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> ALLOY_OF_THE_BERSERKER = ITEMS.register("berserker_alloy",
             () -> new Item(new Item.Properties().fireResistant()));
+
+
 
 
     public static List<Item> getAllItems() {
