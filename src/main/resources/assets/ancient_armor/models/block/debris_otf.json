@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "ancient_armor:block/debris_otf_top",
+    "side": "ancient_armor:block/debris_otf_side"
+  }
+}

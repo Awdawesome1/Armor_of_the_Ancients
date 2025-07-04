@@ -17,6 +17,10 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
         DeferredRegister.create(ForgeRegistries.ITEMS, Ancient_Armor.MOD_ID);
 
+    //raw materials
+    public static final RegistryObject<Item> SCRAP_OTF = ITEMS.register("scrap_otf",
+            () -> new Item(new Item.Properties()));
+
     //base materials
     public static final RegistryObject<Item> RUNE_OF_POWER = ITEMS.register("rune_of_power",
             () -> new Item(new Item.Properties()));
@@ -33,6 +37,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> ETERNAL_FLAME_BUCKET = ITEMS.register("eternal_flame_bucket",
             () -> new Item(new Item.Properties()));
+
 
 
     //alloys

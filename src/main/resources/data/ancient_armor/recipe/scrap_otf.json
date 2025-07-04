@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 0.6,
+  "ingredient": {
+    "item": "ancient_armor:debris_otf"
+  },
+  "result": {
+    "id": "ancient_armor:scrap_otf"
+  }
+}

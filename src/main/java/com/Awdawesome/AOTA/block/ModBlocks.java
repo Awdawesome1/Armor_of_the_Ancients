@@ -26,7 +26,10 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> BLOCK_OF_ANCIENT_ALLOY = registerBlock("block_of_ancient_alloy", () -> new Block(BlockBehaviour.Properties.of()
-            .strength(10f, 100f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)), new Item.Properties().fireResistant());
+            .strength(10f, 18000000).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)), new Item.Properties().fireResistant());
+
+    public static final RegistryObject<Block> THE_FALLENS_DEBRIS = registerBlock("debris_otf", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(7f, 18000000).requiresCorrectToolForDrops().sound(SoundType.ANCIENT_DEBRIS)), new Item.Properties().fireResistant().stacksTo(8));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, Item.Properties properties) {

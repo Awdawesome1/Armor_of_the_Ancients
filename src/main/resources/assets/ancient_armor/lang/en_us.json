@@ -1,6 +1,7 @@
 {
   "item.ancient_armor.rune_of_power" : "Rune of Power",
   "item.ancient_armor.ancient_alloy" : "Ancient Alloy",
+  "item.ancient_armor.scrap_otf": "Scrap of the Fallen",
 
   "item.ancient_armor.precious_blend": "Precious Blend",
   "item.ancient_armor.diamond_plating": "Diamond Plating Kit",
@@ -13,6 +14,9 @@
   "item.ancient_armor.berserker_alloy": "Alloy of the Berserker",
 
   "block.ancient_armor.block_of_ancient_alloy": "Ancient Alloy Block",
+  "block.ancient_armor.debris_otf": "Debris of the Fallen",
+
+
   "creativetab.ancient_armor.aota_items_tab": "Armor of the Ancients Items",
   "creativetab.ancient_armor.aota_blocks_tab": "Armor of the Ancients Blocks"
 }
