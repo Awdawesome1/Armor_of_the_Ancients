@@ -3,6 +3,7 @@ package com.Awdawesome.AOTA;
 import com.Awdawesome.AOTA.block.ModBlocks;
 import com.Awdawesome.AOTA.item.ModCreativeModeTabs;
 import com.Awdawesome.AOTA.item.ModItems;
+import com.Awdawesome.entity.ModEntities;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
@@ -45,6 +46,7 @@ public class Ancient_Armor {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

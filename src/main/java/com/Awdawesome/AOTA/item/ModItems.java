@@ -1,7 +1,9 @@
 package com.Awdawesome.AOTA.item;
 
 import com.Awdawesome.AOTA.Ancient_Armor;
+import com.Awdawesome.AOTA.item.custom.TheTempestsWrathItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -53,6 +55,14 @@ public class ModItems {
     public static final RegistryObject<Item> ALLOY_OF_THE_BERSERKER = ITEMS.register("berserker_alloy",
             () -> new Item(new Item.Properties().fireResistant()));
 
+    //items
+    public static final RegistryObject<Item> THE_TEMPESTS_WRATH = ITEMS.register("tempests_wrath",
+            () -> new TheTempestsWrathItem(new Item.Properties().durability(64)));
+
+    public static final RegistryObject<Item> CHAMPIONS_SWORD = ITEMS.register("champions_sword", () ->
+            new Item(new Item.Properties().stacksTo(1)
+                    .fireResistant()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.CHAMPION, 3, -2.4f))));
 
 
 
