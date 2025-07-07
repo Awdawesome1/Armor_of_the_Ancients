@@ -13,8 +13,8 @@ public class ModTags {
 
 
     public static class Blocks {
-        public static final TagKey<Block> NEEDS_ANCIENT_ALLOY_TOOL = createTag("needs_ancient_allot_tool");
-        public static final TagKey<Block> INCORRECT_FOR_ANCIENT_ALLOY_TOOL = createTag("incorrect_for_ancient_allot_tool");
+        public static final TagKey<Block> NEEDS_ANCIENT_ALLOY_TOOL = createTag("needs_ancient_alloy_tool");
+        public static final TagKey<Block> INCORRECT_FOR_ANCIENT_ALLOY_TOOL = createTag("incorrect_for_ancient_alloy_tool");
 
 
         private static TagKey<Block> createTag(String name) {

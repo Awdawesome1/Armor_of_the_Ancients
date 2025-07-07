@@ -13,12 +13,20 @@
   "item.ancient_armor.artifex_alloy": "Alloy of the Artifex",
   "item.ancient_armor.berserker_alloy": "Alloy of the Berserker",
 
+  "item.ancient_armor.champions_sword": "The Champions Sword",
+
+  "item.ancient_armor.berserker_axe": "The Demon King Cleaver",
+
   "item.ancient_armor.tempests_wrath": "The Rod of the Tempests Wrath",
 
   "block.ancient_armor.block_of_ancient_alloy": "Ancient Alloy Block",
   "block.ancient_armor.debris_otf": "Debris of the Fallen",
 
 
+
   "creativetab.ancient_armor.aota_items_tab": "Armor of the Ancients Items",
-  "creativetab.ancient_armor.aota_blocks_tab": "Armor of the Ancients Blocks"
+  "creativetab.ancient_armor.aota_blocks_tab": "Armor of the Ancients Blocks",
+
+
+  "enchantment.ancient_armor.divine_smite": "Divine Smite"
 }

@@ -1,6 +1,7 @@
 package com.Awdawesome.AOTA.item;
 
 import com.Awdawesome.AOTA.Ancient_Armor;
+import com.Awdawesome.AOTA.item.custom.BerserkerAxe;
 import com.Awdawesome.AOTA.item.custom.Champions_Sword;
 import com.Awdawesome.AOTA.item.custom.TheTempestsWrathItem;
 import net.minecraft.world.item.Item;
@@ -59,12 +60,26 @@ public class ModItems {
     //items
     public static final RegistryObject<Item> THE_TEMPESTS_WRATH = ITEMS.register("tempests_wrath",
             () -> new TheTempestsWrathItem(new Item.Properties().durability(64)));
+    public static final RegistryObject<Item> DIVINE_GEM = ITEMS.register("divine_gem",
+            () -> new Item(new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> LEATHER_BOUND_HANDLE = ITEMS.register("leather_bound_handle",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DEMON_HEART = ITEMS.register("demon_heart",
+            () -> new Item(new Item.Properties()));
 
+
+    //swords
     public static final RegistryObject<Item> CHAMPIONS_SWORD = ITEMS.register("champions_sword", () ->
             new Champions_Sword(ModToolTiers.CHAMPION, new Item.Properties().stacksTo(1)
                     .fireResistant()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.CHAMPION, 3, -2f))));
+                    .attributes(SwordItem.createAttributes(ModToolTiers.CHAMPION, 9, -2f))));
 
+
+    //axes
+    public static final RegistryObject<Item> BERSERKER_AXE = ITEMS.register("berserker_axe", () ->
+            new BerserkerAxe(ModToolTiers.BERSERKER, new Item.Properties().stacksTo(1)
+                    .fireResistant()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.BERSERKER, 10, -2.4f))));
 
 
     public static List<Item> getAllItems() {

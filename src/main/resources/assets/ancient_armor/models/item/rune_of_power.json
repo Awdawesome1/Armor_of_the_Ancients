@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures" : {
-    "layer0" : "ancient_armor:item/rune_of_power"
-  }
-}
