@@ -1,6 +1,7 @@
 package com.Awdawesome.AOTA.item;
 
 import com.Awdawesome.AOTA.Ancient_Armor;
+import com.Awdawesome.AOTA.item.custom.Champions_Sword;
 import com.Awdawesome.AOTA.item.custom.TheTempestsWrathItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
@@ -60,9 +61,9 @@ public class ModItems {
             () -> new TheTempestsWrathItem(new Item.Properties().durability(64)));
 
     public static final RegistryObject<Item> CHAMPIONS_SWORD = ITEMS.register("champions_sword", () ->
-            new Item(new Item.Properties().stacksTo(1)
+            new Champions_Sword(ModToolTiers.CHAMPION, new Item.Properties().stacksTo(1)
                     .fireResistant()
-                    .attributes(SwordItem.createAttributes(ModToolTiers.CHAMPION, 3, -2.4f))));
+                    .attributes(SwordItem.createAttributes(ModToolTiers.CHAMPION, 3, -2f))));
 
 
 

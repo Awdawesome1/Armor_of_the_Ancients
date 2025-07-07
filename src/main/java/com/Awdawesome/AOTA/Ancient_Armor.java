@@ -29,9 +29,9 @@ public class Ancient_Armor {
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public Ancient_Armor()
+    public Ancient_Armor(FMLJavaModLoadingContext context)
     {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus modEventBus = context.getModEventBus();
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -52,7 +52,7 @@ public class Ancient_Armor {
         modEventBus.addListener(this::addCreative);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -70,7 +70,7 @@ public class Ancient_Armor {
     public void onServerStarting(ServerStartingEvent event)
     {
         // Do something when the server starts
-        LOGGER.info("HELLO from server starting");
+        LOGGER.info("Armor of the Ancients is loaded");
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
@@ -81,7 +81,7 @@ public class Ancient_Armor {
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
+            LOGGER.info("Armor of the Ancients is loaded");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }

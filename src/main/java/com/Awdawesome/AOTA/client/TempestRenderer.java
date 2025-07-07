@@ -1,4 +1,4 @@
-package com.Awdawesome.entity.client;
+package com.Awdawesome.AOTA.client;
 
 import com.Awdawesome.entity.custom.TempestsWrathEntity;
 import com.mojang.blaze3d.vertex.PoseStack;

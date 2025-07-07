@@ -73,7 +73,6 @@ public class TempestsWrathEntity extends Entity {
                     new AABB(center.subtract(2, 2, 2), center.add(2, 2, 2)),
                     e -> e != this.getOwner() && isInCone(e.getBoundingBox().getCenter(), center, direction, CONE_ANGLE, 2)
             );
-            System.out.println("Targets found: " + targets.size());
 
             for (Entity entity : targets) {
                 Vec3 pushDir = entity.position().subtract(origin).normalize();

@@ -1,10 +1,9 @@
-package com.Awdawesome.entity.client;
+package com.Awdawesome.AOTA.client;
 
 import com.Awdawesome.AOTA.Ancient_Armor;
 import com.Awdawesome.entity.ModEntities;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.ModelEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -18,4 +17,6 @@ public class ClientModEvents {
             EntityRenderers.register(ModEntities.TEMPESTS_BLAST.get(), TempestRenderer::new);
         });
     }
+
+
 }
